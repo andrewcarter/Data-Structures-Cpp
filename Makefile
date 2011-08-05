@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -std=c++0x
+CXXFLAGS = -Wall
 CPPLIST = $(wildcard src/*.cpp)
 
 all: $(CPPLIST)
